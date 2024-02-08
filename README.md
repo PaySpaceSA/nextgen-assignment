@@ -1,12 +1,16 @@
 ﻿## Assessment
 
-Create a small full stack solution to do tax calculations using .NET Core using MVC Razor (please do not use a front end framework such as Angular as takes too long to get the projects running) and doing some basic CRUD
-operations on SQL Server (must provide localdb with assignment). Publish your assessment to your GitHub account and please include all build instructions to get your solution running.
+Complete a small full stack solution to do tax calculations using .NET and MVC Razor and do some basic CRUD
+operations on SQL Server using Entity Framework (localdb provided with assignment).
+A previous junior developer started this project but was unable to complete it. 
+It is up to you to get it functioning as per the requirement, please feel free to add, remove or change whatever you need to.
+Publish your assessment to a private repository on your GitHub account and please include all build instructions to get your solution running.
 
 ### A few pointers:
 
-* Latest .NET Core version is preferred
 * Make sure you understand how progressive tax works
+* Start with the API and ensure that it is functioning as required before moving on to the web project.
+* Please keep performance in mind in your implementation,for example how would your application handle 1 million progresive calculations a day on limited hardware?
 * Besides completing the test and getting it to work, and accuracy is important, it is also a chance to show the senior developers your understanding of a good framework so
     * Adhere to the SOLID principals
     * Unit tests
@@ -15,7 +19,7 @@ operations on SQL Server (must provide localdb with assignment). Publish your as
 
 ### Task brief:
 
-You have been briefed to write a tax calculator for an individual. The application will take annual income and postal code.
+You have been briefed to complete a tax calculator for an individual. The application will take annual income and postal code.
 
 **Each postal code is linked to a type of Tax calculation:**
 
@@ -46,12 +50,8 @@ You have been briefed to write a tax calculator for an individual. The applicati
 * All users pay 17.5% tax on their income
 
 **Approach:**
-* Write a tax calculator using TDD
 * Use SOLID principals
-* Preferred testing framework is Nunit using full or core framework
-* Razor frontend
-* ORM of choice
-* Use of Design Patterns preferable
+* Use appropriate Design Patterns
 * IOC/Dependency Injection
 * Allow for entering the Postal code and annual income on the front end and submitting
 * Store the calculated value to SQL Server with date/time and the two fields entered

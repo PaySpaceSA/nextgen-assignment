@@ -1,6 +1,6 @@
 ﻿namespace PaySpace.Calculator.Services.Abstractions
 {
-    public interface IProgressiveCalculator : ICalculator
+    public interface IProgressiveCalculator
     {
     }
 }

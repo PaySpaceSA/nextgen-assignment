@@ -23,9 +23,8 @@ namespace PaySpace.Calculator.API.Controllers
         {
             try
             {
-                ICalculator calculator = null;
 
-                var result = await calculator.CalculateAsync(request.Income);
+                var result = 0; 
 
                 await historyService.AddAsync(new CalculatorHistory
                 {
