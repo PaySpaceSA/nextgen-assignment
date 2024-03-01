@@ -4,7 +4,7 @@ Complete a small full stack solution to do tax calculations using .NET and MVC R
 operations on SQL Server using Entity Framework (localdb provided with assignment).
 A previous junior developer started this project but was unable to complete it. 
 It is up to you to get it functioning as per the requirement, please feel free to add, remove or change whatever you need to.
-Publish your assessment to a private repository on your GitHub account and please include all build instructions to get your solution running.
+Once you have completed the task, please zip your repo & share it with TA Specialist you are working with via a Google Drive / similar link
 
 ### A few pointers:
 
