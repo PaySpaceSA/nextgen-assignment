@@ -13,9 +13,10 @@ Once you have completed the task, please zip your repo & share it with TA Specia
 * Please keep performance in mind in your implementation,for example how would your application handle 1 million progresive calculations a day on limited hardware?
 * Besides completing the test and getting it to work, and accuracy is important, it is also a chance to show the senior developers your understanding of a good framework so
     * Adhere to the SOLID principals
-    * Unit tests
+    * Complete the existing unit tests
     * Avoid scaffolding
     * Clean well-formatted code
+    * Do not hardcode the calculators
 
 ### Task brief:
 
